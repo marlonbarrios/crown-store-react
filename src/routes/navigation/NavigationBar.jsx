@@ -8,10 +8,10 @@ const NavigationBar = () => {
   return (
    <Fragment>
  <div className='navigation'>
-     <Link clasName='logo-container' to={'/'}>
+     <Link className='logo-container' to={'/'}>
 <CrownLogo />
  </Link>
- <div className='navs-link-container'> 
+ <div className='nav-links-container'> 
  <Link className='nav-link' to="/shop">
 SHOP
  </Link>
