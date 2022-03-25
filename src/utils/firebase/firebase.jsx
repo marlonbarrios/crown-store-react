@@ -3,9 +3,10 @@
 import { initializeApp } from 'firebase/app'
 import {
     getAuth,
-    signInWithPopup,
-    GoogleAuthProvider,
-    createUserWithEmailAndPassword,signInWithRedirect
+  signInWithRedirect,
+  signInWithPopup,
+  GoogleAuthProvider,
+  createUserWithEmailAndPassword,
 } from 'firebase/auth'
 import {
     getFirestore,
